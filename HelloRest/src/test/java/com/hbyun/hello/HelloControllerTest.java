@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 
 @RunWith(SpringRunner.class)
-// JUnit에 내장된 실행자 외에 다른 실행자를 실행시키는데, 여기선 SpringRunner 실행자를 사용. 스프링부터 테스트와 JUnit 사이에 연결자 역할
+// JUnit에 내장된 실행자 외에 다른 실행자를 실행시키는데, 여기선 SpringRunner 실행자를 사용. 스프링부터 테스트와 JUnit 사이에 연결자 역할.
 @SpringBootTest
 @AutoConfigureMockMvc
 public class HelloControllerTest {
